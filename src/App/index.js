@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <Switch>
-      <Route path="/" exact>
+      <Route path="/">
         <Home />
       </Route>
       <Route path="/person-detail/:id">
